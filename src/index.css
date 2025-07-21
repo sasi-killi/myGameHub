@@ -9,3 +9,13 @@ body.light {
   background-color: var(--light-background);
   color: var(--light-text);
 }
+
+html {
+  font-size: 16px;
+}
+
+@media screen and (max-width: 640px) {
+  html {
+    font-size: 12px;
+  }
+}
